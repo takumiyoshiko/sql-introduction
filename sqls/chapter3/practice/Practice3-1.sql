@@ -1,4 +1,4 @@
-SELECT shohin_id, SUM(shohin_mei)
-FROM shohin_bunrui
-GROUP BY shohin_bunrui
-WHERE torokubi > '2009-09-01';
+SELECT shohin_bunrui, COUNT(*)
+FROM Shohin
+WHERE torokubi > '2009-09-01'
+GROUP BY shohin_bunrui;

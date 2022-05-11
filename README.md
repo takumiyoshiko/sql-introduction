@@ -10,3 +10,11 @@ docker-compose up -d
 ```
 docker-compose exec postgres psql -U postgres -d データベース名 -f SQLファイル
 ```
+
+## Adminer
+[http://localhost:8080/](http://localhost:8080/) にアクセスし、以下の情報でログイン
+- データベース種類: PostgreSQL
+- サーバ: postgres
+- ユーザ名: postgres
+- パスワード: example
+

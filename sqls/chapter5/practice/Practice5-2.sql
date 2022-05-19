@@ -1,0 +1,1 @@
+INSERT INTO ViewRenshu5_1 VALUES ('ナイフ', 300, '2009-11-02');

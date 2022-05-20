@@ -1,0 +1,1 @@
+SELECT str1, str2, str3, REPLACE(str1, str2, str3) AS res_str FROM SampleStr;

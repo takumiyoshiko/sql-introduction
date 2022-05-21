@@ -1,0 +1,1 @@
+SELECT str1, SUBSTRING(str1, 3, 2) as sub_str FROM SampleStr;
